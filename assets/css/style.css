@@ -1,0 +1,94 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.6rem;
+    background: #000000;
+    font-family: "Helvetica", serif;
+}
+
+header {
+    width: 100%;
+    padding: 0.5rem;
+    background: #121212;
+}
+
+#topMenu {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoIMDb {
+    height: 3.6rem;
+
+}
+
+#divSmallArrow {
+    height: 2.8rem;
+    color: black;
+    background: #ffffff;
+}
+
+#line {
+    width: 1%;
+    height: 3.2rem;
+    border-right: #202020 2px solid;
+}
+
+#containerSearchBar {
+    width: 40%;
+}
+
+#search {
+    width: 60rem;
+    height: 3rem;
+}
+#line + div {
+    margin-left: 2rem;
+}
+
+#line + div + div {
+    margin-left: 2rem;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#homePageDiv {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin : 1rem 2rem 2rem 2rem;
+}
+
+#carousel {
+    width: 70%;
+    height: 60rem;
+}
+
+.swiper-slide {
+    width: 60rem;
+    height: 60rem;
+}
+
+.mainColor {
+    color: #f5c518;
+    font-size: 2rem;
+}
+
+
