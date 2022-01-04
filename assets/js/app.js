@@ -19,20 +19,15 @@ const swiper = new Swiper('.mainSwiper', {
     },
 });
 
-const swiper2 = new Swiper('.minSwiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: false,
+const swiper2 = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    slidesPerGroup: 2,
+    loop: true,
+    loopFillGroupWithBlank: true,
 
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
-
-    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
-
 });

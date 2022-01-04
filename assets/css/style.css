@@ -7,14 +7,13 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     color: white;
     font-size: 1.6rem;
     background: #000000;
     font-family: "Helvetica", serif;
 }
 
+/* top bar menu */
 header {
     width: 100%;
     padding: 0.5rem;
@@ -62,6 +61,7 @@ header {
     margin-left: 2rem;
 }
 
+/* Main container */
 #container {
     display: flex;
     flex-flow: row wrap;
@@ -71,7 +71,7 @@ header {
 #homePageDiv {
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
 }
 
@@ -79,21 +79,10 @@ header {
     width: 70%;
     height: 60rem;
 }
-
-.swiper-slide {
-    width: 60rem;
+/* main swiper slide ( home page swiper ) */
+.mainSlide {
+    width: 80rem;
     height: 60rem;
-}
-
-.mainColor {
-    color: #f5c518;
-    font-size: 2rem;
-}
-
-.sideSwiper {
-    margin-left: 1rem;
-    width: 29%;
-    position: relative;
 }
 
 .sideSwiperDiv {
@@ -102,22 +91,26 @@ header {
     height: 14.6rem;
 }
 
-span {
-    margin-top: 1rem;
+/* swiper beside main swiper */
+.sideSwiper {
+    margin-left: 1rem;
+    width: 29%;
+    position: relative;
 }
 
-#mini-swipper {
-    position: absolute;
-    width: 10rem;
-    height: 20rem;
-    bottom: 10px;
-    border: 1px solid white;
+.mainColor {
+    color: #f5c518;
+    font-size: 2rem;
 }
 
 .titleSize {
     font-size: 3rem;
 }
 
+span {
+    margin-top: 1rem;
+}
+/* Container after the main and second swiper */
 #containerMidPage {
     width: 100%;
     display: flex;
@@ -126,16 +119,35 @@ span {
 }
 
 #containerMidPage > h1 {
-    margin-left: 3%;
+    margin-left: 9.5%;
 }
 
-.minSwiper {
-    width: 40rem;
-    height: 20rem;
+.mySwiper {
+    width: 60%;
 }
 
 .maxWidth {
     width: 100%;
 }
+
+.swiper {
+    margin-left: 9.5%;
+    margin-right: unset;
+}
+
+.smallSlide {
+    width: 40rem;
+    height: 20rem;
+}
+
+.section {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
