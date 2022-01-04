@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.mainSwiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: false,
@@ -17,4 +17,22 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 5000,
     },
+});
+
+const swiper2 = new Swiper('.minSwiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
 });

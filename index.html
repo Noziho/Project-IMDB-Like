@@ -6,69 +6,106 @@
     <meta name="viewport" content="width=device-width,
   user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="icon" href="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon"
+          href="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
-    <header>
-        <div id="topMenu">
-            <img id="logoIMDb" src="/assets/img/IMDB_Logo.svg" alt="IMDb">
-            <div id="menu">
-                <i class="fas fa-bars"></i>
-                Menu
-            </div>
-            <div id="divSmallArrow">
-                All
-                <i class="fas fa-sort-down"></i>
-            </div>
-
-            <div id="containerSearchBar">
-                <input id="search" type="text" placeholder="IMDb search">
-            </div>
-
-            <div><p>IMDb Pro</p></div>
-
-            <div id="line"></div>
-
-            <div>Watchlist</div>
-            <div>Sign in</div>
+<header>
+    <div id="topMenu">
+        <img id="logoIMDb" src="/assets/img/IMDB_Logo.svg" alt="IMDb">
+        <div id="menu">
+            <i class="fas fa-bars"></i>
+            Menu
         </div>
-    </header>
+        <div id="divSmallArrow">
+            All
+            <i class="fas fa-sort-down"></i>
+        </div>
 
-    <div id="container">
-        <div id="homePageDiv">
-            <div id="carousel">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img src="https://picsum.photos/1300/550" alt=""></div>
+        <div id="containerSearchBar">
+            <input id="search" type="text" placeholder="IMDb search">
+        </div>
+
+        <div><p>IMDb Pro</p></div>
+
+        <div id="line"></div>
+
+        <div>Watchlist</div>
+        <div>Sign in</div>
+    </div>
+</header>
+
+<div id="container">
+    <div id="homePageDiv">
+        <div id="carousel">
+            <div class="swiper mainSwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://picsum.photos/1300/550" alt=""></div>
+                    <div class="swiper-slide"><img src="https://picsum.photos/1301/549" alt=""></div>
+                    <div class="swiper-slide"><img src="https://picsum.photos/1302/548" alt=""></div>
+                    <!-- mini swiper for try only -->
+                    <div class="swiper" id="mini-swipper">
+                        <div class="swiper-slide"><img src="https://picsum.photos/130/550" alt=""></div>
                         <div class="swiper-slide"><img src="https://picsum.photos/1301/549" alt=""></div>
                         <div class="swiper-slide"><img src="https://picsum.photos/1302/548" alt=""></div>
                     </div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
                 </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+
+        <div class="sideSwiper">
+            <h1 class="mainColor">Up next</h1>
+            <div class="sideSwiperDiv">Test0</div>
+            <div class="sideSwiperDiv">Test1</div>
+            <div class="sideSwiperDiv">Test2</div>
+            <span class="mainColor">Browse Trailer ></span>
+        </div>
+    </div>
+
+    <div id="containerMidPage">
+        <h1 class="mainColor titleSize maxWidth">Featured today</h1>
+        <div class="swiper minSwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="https://picsum.photos/400/200" alt=""></div>
+                <div class="swiper-slide"><img src="https://picsum.photos/400/199" alt=""></div>
+                <div class="swiper-slide"><img src="https://picsum.photos/400/198" alt=""></div>
             </div>
 
-            <div class="sideSwiper">
-                <h1 class="mainColor">Up next</h1>
-                <div class="sideSwiperDiv">Test0</div>
-                <div class="sideSwiperDiv">Test1</div>
-                <div class="sideSwiperDiv">Test2</div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="swiper minSwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="https://picsum.photos/401/200" alt=""></div>
+                <div class="swiper-slide"><img src="https://picsum.photos/402/199" alt=""></div>
+                <div class="swiper-slide"><img src="https://picsum.photos/403/198" alt=""></div>
             </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next"></div>
         </div>
     </div>
 
 
-    <script src="https://kit.fontawesome.com/f06b2f84ad.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="/assets/js/app.js"></script>
+</div>
+
+
+<script src="https://kit.fontawesome.com/f06b2f84ad.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="/assets/js/app.js"></script>
 </body>
 </html>

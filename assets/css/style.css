@@ -65,7 +65,6 @@ header {
 #container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     width: 100%;
 }
 
@@ -73,11 +72,11 @@ header {
     display: flex;
     flex-flow: row wrap;
     width: 80%;
-    margin : 1rem 2rem 2rem 2rem;
+    margin: 1rem auto;
 }
 
 #carousel {
-    width: 75%;
+    width: 70%;
     height: 60rem;
 }
 
@@ -93,7 +92,8 @@ header {
 
 .sideSwiper {
     margin-left: 1rem;
-    width: 24%;
+    width: 29%;
+    position: relative;
 }
 
 .sideSwiperDiv {
@@ -101,4 +101,41 @@ header {
     background: #101010;
     height: 14.6rem;
 }
+
+span {
+    margin-top: 1rem;
+}
+
+#mini-swipper {
+    position: absolute;
+    width: 10rem;
+    height: 20rem;
+    bottom: 10px;
+    border: 1px solid white;
+}
+
+.titleSize {
+    font-size: 3rem;
+}
+
+#containerMidPage {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+}
+
+#containerMidPage > h1 {
+    margin-left: 3%;
+}
+
+.minSwiper {
+    width: 40rem;
+    height: 20rem;
+}
+
+.maxWidth {
+    width: 100%;
+}
+
 
