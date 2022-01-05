@@ -44,3 +44,15 @@ const swiper3 = new Swiper(".mySwiperCategory", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+const swiper4 = new Swiper(".mySwipe3Slide", {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    loop: false,
+    loopFillGroupWithBlank: true,
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
