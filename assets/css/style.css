@@ -209,16 +209,16 @@ div + span:hover {
 }
 
 .sameSmallSlide {
-    width: 15rem;
+    width: 20rem;
     height: auto;
 }
 
     /* div container bellow all slide on the swiper, to describe the slide */
 
 .descriptionSlide {
-    width: 89.5%;
+    width: auto;
     height: auto;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
     background: #1a1a1a;
     border-radius: 0 0 0.3rem 0.3rem;
 }
@@ -236,7 +236,7 @@ div + span:hover {
 
 .far.fa-star {
     color: #508ddd;
-    margin-left: 4.3rem;
+    margin-left: 3.3rem;
 
 }
 .containerButton, .containerTrailerButton {
