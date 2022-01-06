@@ -96,7 +96,7 @@
             <div><span class="titleDescription">TV shows and movies just for you</span></div>
             <div><span class="blue signInButton">Sign In</span></div>
         </div>
-
+        <!-- Marque page pour le test php -->
         <div class="swiper mySwiperCategory">
             <div class="swiper-wrapper">
                 <div class="swiper-slide sameSmallSlide">
@@ -2265,6 +2265,10 @@
 
     </div>
 
+    <?php
+    include "carouselSixSlide.php";
+        carouselSixSlide();
+    ?>
     <footer>
         <div class="socialMediaLogo">
             <i class="fab fa-facebook-square"></i>
