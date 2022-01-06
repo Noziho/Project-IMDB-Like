@@ -358,6 +358,7 @@ div + span:hover {
     width: 50%;
     margin-top: 1rem;
     padding: 2rem;
+    flex-flow: row wrap;
 }
 .yellowBorder {
     border-color: #f5c518;
@@ -365,6 +366,31 @@ div + span:hover {
 }
 
 .linearGradientBg {
-    background: linear-gradient(to left, rgb(16, 15, 15), black);
+    background: linear-gradient(to left, rgb(24, 23, 23), black);
+}
+
+.box-office-logo {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.containerLogoBoxOffice {
+    width: 10%
+}
+
+.containerLogoBoxOffice + div {
+    width: 80%;
+}
+
+.fa-ticket-alt {
+    color: #508ddd;
+}
+
+.fa-ticket-alt + div {
+    width: 100%;
+    color: #a2a2a2;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 7rem;
 }
 
