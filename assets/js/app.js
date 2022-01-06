@@ -21,7 +21,7 @@ const swiper = new Swiper('.mainSwiper', {
 
 const swiper2 = new Swiper(".mySwiper", {
     slidesPerView: 2,
-    spaceBetween: 0,
+    spaceBetween: 5,
     slidesPerGroup: 2,
     loop: false,
     loopFillGroupWithBlank: true,
@@ -48,6 +48,7 @@ const swiper3 = new Swiper(".mySwiperCategory", {
 const swiper4 = new Swiper(".mySwipe3Slide", {
     slidesPerView: 3,
     slidesPerGroup: 3,
+    spaceBetween: 10,
     loop: false,
     loopFillGroupWithBlank: true,
 

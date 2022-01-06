@@ -94,6 +94,11 @@ header {
     height: 14.6rem;
 }
 
+.mainSwiperImages {
+    width: 80rem;
+    height: 50rem;
+}
+
 /* swiper beside main swiper */
 .sideSwiper {
     margin-left: 1rem;
@@ -129,7 +134,7 @@ div + span:hover {
 
 
 .mySwiper {
-    width: 60%;
+    width: 50%;
 }
 
 .maxWidth {
@@ -142,6 +147,11 @@ div + span:hover {
 }
 
 .smallSlide {
+    width: 30rem;
+    height: 20rem;
+}
+
+.smallSlide > img {
     width: 30rem;
     height: 20rem;
 }
@@ -213,10 +223,15 @@ div + span:hover {
     height: auto;
 }
 
+.sameSmallSlide > img {
+    width: 22.3rem;
+    height: 40rem;
+}
+
     /* div container bellow all slide on the swiper, to describe the slide */
 
 .descriptionSlide {
-    width: auto;
+    width: 22.3rem;
     height: auto;
     padding: 1.5rem 1.5rem 0 1.5rem;
     background: #1a1a1a;
@@ -328,6 +343,15 @@ div + span:hover {
     height: auto;
 }
 
+.sameSmallSlideForTriple > img {
+    width: 30rem;
+    height: 15rem;
+}
+
+.mySwipe3Slide {
+    width: 70%;
+}
+
 /* Explore what’s streaming category */
 
 #primeVideoCategoryContainer {
@@ -396,7 +420,9 @@ div + span:hover {
 
 /* Top news under category */
 
-
+.swiper3SlideSizeDiff {
+    width: 100%;
+}
 .topNewsSlides {
     width: 24%;
     display: flex;
