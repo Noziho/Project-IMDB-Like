@@ -21,25 +21,30 @@ header {
     width: 100%;
     padding: 0.5rem;
     background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #topMenu {
     display: flex;
-    width: 100%;
+    width: 90%;
     flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+
 }
 
 #logoIMDb {
     height: 3.6rem;
-
 }
 
 #divSmallArrow {
+    width: 5%;
     height: 2.8rem;
     color: black;
     background: #ffffff;
+    border-radius: 1px;
 }
 
 .line {
@@ -49,11 +54,13 @@ header {
 }
 
 #containerSearchBar {
-    width: 40%;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #search {
-    width: 60rem;
+    width: 95%;
     height: 3rem;
 }
 #line + div {
@@ -473,12 +480,18 @@ footer {
 
 .externalLinkContainer {
     display: flex;
-    width: 60%;
+    width: 100%;
     flex-flow: row wrap;
     line-height: 3rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.externalLinkContainer > div {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
 }
 
 a {
@@ -502,7 +515,8 @@ a:visited {
 
 #amazonLogoContainer {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #footerSpan {
@@ -512,6 +526,3 @@ a:visited {
     text-align: center;
     font-weight: bold;
 }
-
-
-/* <i class="fas fa-external-link-alt"></i> */

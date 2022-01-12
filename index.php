@@ -20,12 +20,13 @@
             <i class="fas fa-bars"></i>
             Menu
         </div>
-        <div id="divSmallArrow">
-            All
-            <i class="fas fa-sort-down"></i>
-        </div>
+
 
         <div id="containerSearchBar">
+            <div id="divSmallArrow">
+                All
+                <i class="fas fa-sort-down"></i>
+            </div>
             <input id="search" type="text" placeholder="IMDb search">
         </div>
 
@@ -45,9 +46,12 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages" src="https://picsum.photos/800/500" alt=""></div>
-                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages" src="https://picsum.photos/800/499" alt=""></div>
-                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages" src="https://picsum.photos/800/498" alt=""></div>
+                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages"
+                                                             src="https://picsum.photos/800/500" alt=""></div>
+                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages"
+                                                             src="https://picsum.photos/800/499" alt=""></div>
+                    <div class="swiper-slide mainSlide"><img class="mainSwiperImages"
+                                                             src="https://picsum.photos/800/498" alt=""></div>
                 </div>
 
                 <!-- If we need navigation buttons -->
@@ -1057,7 +1061,8 @@
             <span class="titleDescription">IMDb helps you select the perfect next show or movie to watch.</span>
             <div id="containerButtonWatchGuide">
                 <button class="watchGuideAndPopular">Watch Guide</button>
-                <button class="watchGuideAndPopular">Most Popular</button></div>
+                <button class="watchGuideAndPopular">Most Popular</button>
+            </div>
         </div>
     </div>
 
@@ -1071,7 +1076,8 @@
 
         <div class="underSection secondUnderSection">
             <h2 class="topPicksTitle">IMDb Originals <span class="yellowHover">></span></h2>
-            <div><span class="titleDescription">Celebrity interviews, trending entertainment stories, and expert analysis</span></div>
+            <div><span class="titleDescription">Celebrity interviews, trending entertainment stories, and expert analysis</span>
+            </div>
         </div>
 
         <div class="swiper mySwipe3Slide">
@@ -2218,7 +2224,7 @@
         <div class="swiper mySwipe3Slide swiper3SlideSizeDiff">
             <div class="swiper-wrapper">
                 <div class="swiper-slide topNewsSlides">
-                    <img class="topNewsSlidesImage" src="https://picsum.photos/430/250" alt="" >
+                    <img class="topNewsSlidesImage" src="https://picsum.photos/430/250" alt="">
                     <div>The White Lotus Books The Sopranos' Michael Imperioli for Season 2 Role
                         <div>Jan 6 TVLine.com</div>
                     </div>
@@ -2265,10 +2271,6 @@
 
     </div>
 
-    <?php
-    include "carouselSixSlide.php";
-        carouselSixSlide();
-    ?>
     <footer>
         <div class="socialMediaLogo">
             <i class="fab fa-facebook-square"></i>
@@ -2279,95 +2281,94 @@
         </div>
 
         <div class="externalLinkContainer">
-            <div class="externalLink">
-                <a
-                        href="https://apps.apple.com/us/app/id342792525?_branch_match_id=992390107743026717&_branch_referrer=H4sIAAAAAAAAA8
+            <div>
+                <div class="externalLink">
+                    <a
+                            href="https://apps.apple.com/us/app/id342792525?_branch_match_id=992390107743026717&_branch_referrer=H4sIAAAAAAAAA8
               soKSkottLXL86pTNJLLCjQy8nMy9YP9k6pDDRzNDGxBABVqlN1IAAAAA%3D%3D&utm_campaign=mdot%20sitewide%20footer%20Branch%20update
               &utm_medium=marketing&utm_source=IMDb%20Mdot">
-                    Get the IMDb App <i class="fas fa-external-link-alt"></i>
-                </a>
+                        Get the IMDb App <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink">
+                    <a href="https://help.imdb.com/imdb">
+                        Help <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink">
+                    <a href="https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so">
+                        Site index <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink">
+                    <a href="https://pro.imdb.com/signup/index.html?rf=cons_tf_pro&u=https%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Dcons_tf_pro%26rf%3Dcons_tf_pro">
+                        IMDbPro <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink">
+                    <a href="https://www.boxofficemojo.com/">
+                        Box Office Mojo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="externalLink">
+                    <a href="https://developer.imdb.com">
+                        IMDb Developer <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://www.imdb.com/pressroom/?ref_=ft_pr">
+                        Press room
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://advertising.amazon.com/resources/ad-specs/imdb/">
+                        Advertising <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://www.amazon.jobs/en/teams/imdb">
+                        Jobs <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://developer.imdb.com">
+                        Conditions of Use
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://developer.imdb.com">
+                        Privacy Policy
+                    </a>
+                </div>
+
+                <div class="externalLink moreWidth">
+                    <a href="https://www.amazon.com/b/?&node=5160028011">
+                        Interest-Based Ads <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
             </div>
 
-            <div class="externalLink">
-                <a href="https://help.imdb.com/imdb">
-                    Help <i class="fas fa-external-link-alt"></i>
-                </a>
+            <div id="amazonLogoContainer">
+                <img src="/assets/img/amazonCompanyLogo.png" alt="amazon company logo">
             </div>
 
-            <div class="externalLink">
-                <a href="https://help.imdb.com/article/imdb/general-information/imdb-site-index/GNCX7BHNSPBTFALQ#so">
-                    Site index <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-
-            <div class="externalLink">
-                <a href="https://pro.imdb.com/signup/index.html?rf=cons_tf_pro&u=https%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Dcons_tf_pro%26rf%3Dcons_tf_pro">
-                    IMDbPro <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-
-            <div class="externalLink">
-                <a href="https://www.boxofficemojo.com/">
-                    Box Office Mojo <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-            <div class="externalLink">
-                <a href="https://developer.imdb.com">
-                    IMDb Developer <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://www.imdb.com/pressroom/?ref_=ft_pr">
-                    Press room
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://advertising.amazon.com/resources/ad-specs/imdb/">
-                    Advertising <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://www.amazon.jobs/en/teams/imdb">
-                    Jobs <i class="fas fa-external-link-alt"></i>
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://developer.imdb.com">
-                    Conditions of Use
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://developer.imdb.com">
-                    Privacy Policy
-                </a>
-            </div>
-
-            <div class="externalLink moreWidth">
-                <a href="https://www.amazon.com/b/?&node=5160028011">
-                    Interest-Based Ads <i class="fas fa-external-link-alt"></i>
-                </a>
+            <div id="containerSpanFooter">
+                <span id="footerSpan">&copy 1990-2022 by IMDb.com, Inc.</span>
             </div>
         </div>
-        
-        <div id="amazonLogoContainer">
-            <img src="/assets/img/amazonCompanyLogo.png" alt="amazon company logo">
-        </div>
-
-        <div id="containerSpanFooter">
-            <span id="footerSpan">&copy 1990-2022 by IMDb.com, Inc.</span>
-        </div>
-
 
 
     </footer>
 </div>
-
-
 
 
 <script src="https://kit.fontawesome.com/f06b2f84ad.js" crossorigin="anonymous"></script>
