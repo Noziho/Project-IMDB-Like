@@ -526,3 +526,13 @@ a:visited {
     text-align: center;
     font-weight: bold;
 }
+
+/* Responsive */
+@media screen and (max-width: 1500px) {
+    .swiper-slide img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
