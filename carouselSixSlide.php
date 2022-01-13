@@ -1,8 +1,5 @@
 <?php
-function carouselSixSlide(){
-
-    echo "
-        
+function carouselSixSlide(){?>
 
         <div class='swiper mySwiperCategory'>
             <div class='swiper-wrapper'>
@@ -467,8 +464,7 @@ function carouselSixSlide(){
             <div class='swiper-button-prev'></div>
         </div>
 
-
-    </div>";
+    <?php
 }
 
 
