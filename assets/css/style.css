@@ -88,7 +88,7 @@ header {
 
 #carousel {
     width: 65%;
-    height: 30rem;
+    height: auto;
 }
 /* main swiper slide ( home page swiper ) */
 .mainSlide {
@@ -539,8 +539,107 @@ a:visited {
 
 
 /* Responsive */
+
+@media screen and (max-width: 1260px) {
+    .containerLogoBoxOffice + div {
+        width: 60%;
+    }
+}
 @media screen and (max-width: 1100px) {
     #container {
         width: auto;
     }
+    #containerSearchBar + div {
+        display: none;
+    }
+    #divSmallArrow {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 980px) {
+    #container {
+        width: 100%;
+        margin: 0 0 0 1rem;
+    }
+    .descriptionSlide {
+        display: none;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    #homePageDiv {
+        width: 100%;
+    }
+
+    .sideSwiper {
+        display: none;
+    }
+
+    #carousel {
+        width: 98%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .mySwipe3Slide {
+        width: 100%;
+    }
+
+    .boxOffice {
+        width: 100%;
+    }
+
+    .line + div {
+        display: none;
+    }
+
+    #signInButton {
+        width: 24%;
+    }
+    .containerLogoBoxOffice + div {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #signInButton {
+        width: 42%;
+    }
+
+    #containerSearchBar {
+        display: none;
+    }
+
+    #topMenu {
+        justify-content: space-around;
+    }
+
+    #primeVideoCategoryContainer > div {
+        width: 10rem;
+    }
+
+    .watchGuideAndPopular {
+        width: 40%;
+    }
+
+    .topNewsSlides {
+        display: block;
+    }
+
+    .topNewsSlides img {
+        width: 100%;
+    }
+
+    .topNewsSlidesImage + div {
+        font-size: 1.2rem;
+        overflow: auto;
+    }
+
 }
