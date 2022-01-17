@@ -238,7 +238,7 @@ div + span:hover {
     /* div container bellow all slide on the swiper, to describe the slide */
 
 .descriptionSlide {
-    width: 22.3rem;
+    width: 100%;
     height: auto;
     padding: 1.5rem 1.5rem 0 1.5rem;
     background: #1a1a1a;
@@ -527,12 +527,20 @@ a:visited {
     font-weight: bold;
 }
 
-/* Responsive */
-@media screen and (max-width: 1500px) {
-    .swiper-slide img {
-        width: 100%;
-        object-fit: cover;
-    }
-
+.swiper-slide img {
+    width: 100%;
+    object-fit: cover;
 }
 
+.topNewsSlides img {
+    width: 24%;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 1100px) {
+    #container {
+        width: auto;
+    }
+}
